@@ -1,0 +1,27 @@
+{
+  "author": "William Kimball",
+  "name": "wkimball-postfix",
+  "version": "0.1.0",
+  "summary": "Fully manages postfix",
+  "license": "Apache-2.0",
+  "project_page": "https://github.com/wwkimball/wwkimball-postfix",
+  "source": "https://github.com/wwkimball/wwkimball-postfix.git",
+  "issues_url": "https://github.com/wwkimball/wwkimball-postfix/issues",
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": "4.x" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": ["6", "7"]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": ["6", "7"]
+    }
+  ],
+  "requirements": [
+    { "name": "puppet", "version_requirement": ">=5.0.0" }
+  ],
+  "tags": [ "postfix", "hiera" ]
+}
